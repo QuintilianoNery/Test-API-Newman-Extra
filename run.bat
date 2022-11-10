@@ -1,0 +1,1 @@
+newman run ServeRest.postman_collection.json -n 3 -r htmlextra --insecure --reporter-htmlextra-export ./newman/report.html
